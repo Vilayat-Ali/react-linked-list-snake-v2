@@ -261,6 +261,13 @@
   dependencies:
     "@chakra-ui/shared-utils" "2.0.4"
 
+"@chakra-ui/icons@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.15.tgz#9613eae03e08dd9622723540cd3bf582e38b1fde"
+  integrity sha512-/Hsefej7DfRMg+Go+gf/UU4PHNMPmba41ogO1K3242aP9VSs/6/qXB3zrZHl21OX/rdrK408VqYEPInLmUwiHw==
+  dependencies:
+    "@chakra-ui/icon" "3.0.14"
+
 "@chakra-ui/image@2.0.13":
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-2.0.13.tgz#adc8bc97a65ef15491d7abfa7e4aa31debb3e4c1"
@@ -2022,6 +2029,11 @@ react-hot-toast@^2.4.0:
   integrity sha512-qnnVbXropKuwUpriVVosgo8QrB+IaPJCpL8oBI6Ov84uvHZ5QQcTp2qg6ku2wNfgJl6rlQXJIQU5q+5lmPOutA==
   dependencies:
     goober "^2.1.10"
+
+react-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
+  integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
