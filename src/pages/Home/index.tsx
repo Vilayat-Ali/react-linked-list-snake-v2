@@ -4,15 +4,13 @@ import { Fragment } from "react";
 // components
 import SEO from "../../components/SEO";
 
-type Props = {};
-
-const index = (props: Props) => {
+const HomePage = () => {
   return (
     <Fragment>
       {/* Page SEO */}
       <SEO
         title="Home"
-        description="Description"
+        description="Created by Syed Vilayat Ali Rizvi with ❤️. This react-based project features a classic snake game but with a little twist - Snake is nothing but a LINKED LIST! Play this game and drop your thoughts on my official email in the website!"
         keywords={[
           "react-project",
           "create-react-app",
@@ -48,6 +46,14 @@ const index = (props: Props) => {
           "ethereum",
           "crypto",
           "nfts",
+          "freelancer",
+          "gaem dev",
+          "web developer",
+          "ben awad",
+          "jonathan ma",
+          "youtube fanboi",
+          "showcase-project",
+          "google project",
         ]}
         ogImageURL="https://www.github.com/Vilayat-Ali.png"
       />
@@ -56,4 +62,4 @@ const index = (props: Props) => {
   );
 };
 
-export default index;
+export default HomePage;

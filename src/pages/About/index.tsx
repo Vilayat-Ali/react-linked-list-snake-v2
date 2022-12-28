@@ -4,16 +4,22 @@ import { Fragment } from "react";
 // components
 import SEO from "../../components/SEO";
 
-type Props = {};
-
-const index = (props: Props) => {
+const AboutPage = () => {
   return (
     <Fragment>
       {/* Page SEO */}
       <SEO
-        title="Home"
+        title="About"
         description="Description"
-        keywords={["alif"]}
+        keywords={[
+          "Syed Vilayat Ali Rizvi",
+          "vilayatcodemysite@gmail.com",
+          "Vilayat's Project",
+          "Vilayat's React Skills",
+          "create-react-app",
+          "React developer",
+          "TypeScript-React Developer",
+        ]}
         ogImageURL="https://www.github.com/Vilayat-Ali.png"
       />
       {/* Page SEO */}
@@ -21,4 +27,4 @@ const index = (props: Props) => {
   );
 };
 
-export default index;
+export default AboutPage;

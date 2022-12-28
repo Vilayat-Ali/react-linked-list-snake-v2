@@ -13,7 +13,15 @@ const index = (props: Props) => {
       <SEO
         title="Home"
         description="Description"
-        keywords={["alif"]}
+        keywords={[
+          "snake-game",
+          "nokia-snake-game",
+          "nokia",
+          "arcade game",
+          "crypto gaming",
+          "indie game",
+          "browser game",
+        ]}
         ogImageURL="https://www.github.com/Vilayat-Ali.png"
       />
       {/* Page SEO */}
