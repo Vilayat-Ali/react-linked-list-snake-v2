@@ -19,7 +19,15 @@ const AboutPage = () => {
           "create-react-app",
           "React developer",
           "TypeScript-React Developer",
+          "game mechanics",
+          "developer's blog",
+          "react dev blog",
+          "tutorial",
+          "concept",
+          "data structure tutorial",
+          "algorithm explanation",
         ]}
+        ogType={"website"}
         ogImageURL="https://www.github.com/Vilayat-Ali.png"
       />
       {/* Page SEO */}

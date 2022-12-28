@@ -55,6 +55,7 @@ const HomePage = () => {
           "showcase-project",
           "google project",
         ]}
+        ogType={"website"}
         ogImageURL="https://www.github.com/Vilayat-Ali.png"
       />
       {/* Page SEO */}

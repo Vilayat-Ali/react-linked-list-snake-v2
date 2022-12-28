@@ -11,7 +11,7 @@ const index = (props: Props) => {
     <Fragment>
       {/* Page SEO */}
       <SEO
-        title="Home"
+        title="Play"
         description="Description"
         keywords={[
           "snake-game",
@@ -22,6 +22,7 @@ const index = (props: Props) => {
           "indie game",
           "browser game",
         ]}
+        ogType={"game"}
         ogImageURL="https://www.github.com/Vilayat-Ali.png"
       />
       {/* Page SEO */}
